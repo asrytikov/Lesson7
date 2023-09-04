@@ -1,28 +1,28 @@
-package p7;
+package p8;
 
-public class Account<T, S>{
+public class Account{
 
-    private T id;
-    private S sum;
+    private String id;
+    private int sum;
 
-    public Account(T id, S sum) {
+    public Account(String id, int sum) {
         this.id = id;
         this.sum = sum;
     }
 
-    public T getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(T id) {
+    public void setId(String id) {
         this.id = id;
     }
 
-    public S getSum() {
+    public int getSum() {
         return sum;
     }
 
-    public void setSum(S sum) {
+    public void setSum(int sum) {
         this.sum = sum;
     }
 

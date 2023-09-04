@@ -1,4 +1,4 @@
-package p4;
+package p5;
 
 public interface Accountable<T> {
     T getId();

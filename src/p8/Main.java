@@ -1,13 +1,14 @@
-package p7;
+package p8;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        Account<String, Double> account = new Account<String, Double>("2334", 5000.0);
-        String accountId = account.getId();
-        Double sum = account.getSum();
-        System.out.printf("Id: %s Sum: %f \n", accountId, sum);
+        Account account = new Account("2334", 5000);
+        Account account1 = new Account("3456", 1500);
+
+        Transation<Account> transation = new Transation<Account>(account, account1, 4000);
+        transation.execute();
 
 
     }

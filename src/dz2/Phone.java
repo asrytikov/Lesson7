@@ -1,3 +1,4 @@
+package dz2;
 public class Phone {
 
     private String number;
@@ -32,7 +33,7 @@ public class Phone {
 
     @Override
     public String toString() {
-        return "Phone{" +
+        return "dz2.Phone{" +
                 "number='" + number + '\'' +
                 ", model='" + model + '\'' +
                 ", weight=" + weight +

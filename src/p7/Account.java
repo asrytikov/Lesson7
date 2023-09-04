@@ -1,11 +1,11 @@
-package p5;
+package p7;
 
-public class Account<T> implements Accountable<T> {
+public class Account<T, S>{
 
     private T id;
-    private int sum;
+    private S sum;
 
-    public Account(T id, int sum) {
+    public Account(T id, S sum) {
         this.id = id;
         this.sum = sum;
     }
@@ -18,11 +18,11 @@ public class Account<T> implements Accountable<T> {
         this.id = id;
     }
 
-    public int getSum() {
+    public S getSum() {
         return sum;
     }
 
-    public void setSum(int sum) {
+    public void setSum(S sum) {
         this.sum = sum;
     }
 

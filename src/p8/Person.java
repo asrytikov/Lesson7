@@ -1,2 +1,4 @@
-package p8;public class Person {
+package p8;
+
+public class Person {
 }
